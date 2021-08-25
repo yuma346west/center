@@ -1,0 +1,27 @@
+version: '3'
+services:
+  app:
+    build: ./js
+    container_name: center_app
+    volumes:
+      - ./js/app:/app
+    ports:
+      - "3000:3000"
+    tty: true
+  db:
+    build: ./mysql
+    container_name: mysql_host
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: common
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: password
+      TZ: 'Asia/Tokyo'
+    restart: always
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - 3306:3306
+
