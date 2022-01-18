@@ -11,7 +11,7 @@ services:
       driver: "none"
     restart: unless-stopped
     volumes:
-      - db-data:/var/lib/postgresql/data
+      - ./postgres/data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
 
@@ -29,6 +29,3 @@ services:
     restart: unless-stopped
     ports:
       - "80:3000"
-
-volumes:
-  db-data:
