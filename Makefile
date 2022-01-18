@@ -1,5 +1,5 @@
 run:
-	docker-compose up -d app db
+	docker-compose up -d wiki db
 run-all:
 	docker-compose up -d
 down:
