@@ -2,3 +2,4 @@ js/app/node_modules
 mysql/data
 postgres/data
 .idea
+**/.idea

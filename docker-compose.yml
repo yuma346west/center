@@ -29,3 +29,25 @@ services:
     restart: unless-stopped
     ports:
       - "80:3000"
+
+  nestjs:
+    container_name: nestjs
+    build: nestjs
+    environment:
+      ENV: local
+    volumes:
+      - /nestjs/app:/src/app
+      - :/src/app/node_modules
+    ports:
+      - "3001:3000"
+
+  nextjs:
+    container_name: nextjs
+    build: nextjs-docker
+    environment:
+      ENV: local
+    volumes:
+      - /nextjs-docker:/app
+      - :/app/node_modules
+    ports:
+      - "3002:3000"

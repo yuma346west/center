@@ -1,5 +1,9 @@
-run:
+run-wiki:
 	docker-compose up -d wiki db
+run-js:
+	docker-compose up -d nestjs
+run-nextjs:
+	docker-compose up -d nextjs
 run-all:
 	docker-compose up -d
 down:
