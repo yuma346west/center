@@ -43,11 +43,12 @@ services:
 
   nextjs:
     container_name: nextjs
-    build: nextjs-docker
+    build: nextjs
     environment:
-      ENV: local
+      - ENV=local
+      - CHOKIDAR_USEPOLLING=true
     volumes:
-      - /nextjs-docker:/app
-      - :/app/node_modules
+      - /nextjs/app:/app
+      - /app/node_modules
     ports:
       - "3002:3000"
