@@ -1,0 +1,19 @@
+@namespace BlazorApp.Components
+
+@code {
+    [Parameter] public bool Invert { get; set; } = false;
+    [Parameter] public string CssClass { get; set; } = "";
+}
+
+@if (Invert) {
+    <svg class="@CssClass" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 50">
+        <polygon points="25,45 45,10 5,10" style="fill:#000000;"/> 
+        <circle cx="25" cy="22" r="10" stroke="black" stroke-width="3" fill="white"/>
+    </svg>
+}
+else {
+    <svg class="@CssClass" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 50">
+        <polygon points="25,5 45,40 5,40" style="fill:#000000;"/>
+        <circle cx="25" cy="28" r="10" stroke="black" stroke-width="3" fill="white"/>
+    </svg>
+}

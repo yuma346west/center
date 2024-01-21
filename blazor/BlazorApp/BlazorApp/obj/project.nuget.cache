@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "uzvGz8vqiReCBB+WyPm5fzHIN3NlgDwexcnfxSbsbj9lpgIIo+jQp3LzkPLvCfnSgs7GS5/c/OsBBdIn6AvUuw==",
+  "dgSpecHash": "y6mJAOZprtBxwt0uSIn5WAqHYmL0XTvgcRSBUu6dJ0n69xwV3TjaZbmIH/XRPqZM1Y2eBiSoKTKLLltf0TmiZA==",
   "success": true,
   "projectFilePath": "/Users/manbrabio/workspace/development/project-center/blazor/BlazorApp/BlazorApp/BlazorApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/manbrabio/.nuget/packages/matblazor/2.8.0/matblazor.2.8.0.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.aspnetcore.authorization/3.1.10/microsoft.aspnetcore.authorization.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.aspnetcore.components/3.1.10/microsoft.aspnetcore.components.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.10/microsoft.aspnetcore.components.analyzers.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.aspnetcore.components.forms/3.1.10/microsoft.aspnetcore.components.forms.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.aspnetcore.components.web/3.1.10/microsoft.aspnetcore.components.web.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.aspnetcore.metadata/3.1.10/microsoft.aspnetcore.metadata.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.10/microsoft.extensions.dependencyinjection.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.10/microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.10/microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.extensions.options/3.1.10/microsoft.extensions.options.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.extensions.primitives/3.1.10/microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+    "/Users/manbrabio/.nuget/packages/microsoft.jsinterop/3.1.10/microsoft.jsinterop.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

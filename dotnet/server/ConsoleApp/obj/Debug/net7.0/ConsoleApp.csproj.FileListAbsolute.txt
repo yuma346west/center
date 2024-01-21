@@ -1,0 +1,15 @@
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/bin/Debug/net7.0/ConsoleApp
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/bin/Debug/net7.0/ConsoleApp.deps.json
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/bin/Debug/net7.0/ConsoleApp.runtimeconfig.json
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/bin/Debug/net7.0/ConsoleApp.dll
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/bin/Debug/net7.0/ConsoleApp.pdb
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.csproj.AssemblyReference.cache
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.AssemblyInfoInputs.cache
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.AssemblyInfo.cs
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.dll
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/refint/ConsoleApp.dll
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.pdb
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ConsoleApp.genruntimeconfig.cache
+/Users/manbrabio/workspace/development/project-center/dotnet/server/ConsoleApp/obj/Debug/net7.0/ref/ConsoleApp.dll

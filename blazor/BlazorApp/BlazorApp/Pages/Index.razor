@@ -1,9 +1,23 @@
 ﻿@page "/"
+@using BlazorApp.Components
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<header>
+    <div style="position: relative;">
+        <BackGroupHeader/>
+        <div style="width: 800px; height: 200px; display: flex;">
+            @foreach (var num in Enumerable.Range(1, 5)) {
+                <DeltaCircleIcon CssClass="top-header-move-down"/>
+                <DeltaCircleIcon Invert="true" CssClass="top-header-move-up"/>
+            }
+            <DeltaCircleIcon CssClass="top-header-move-down"/>
+        </div>
+    </div>
+</header>
 
 Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<SurveyPrompt Title="How is Blazor working for you?"/>
+
+<Counter IncrementAmount="10"/>
