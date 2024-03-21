@@ -1,4 +1,4 @@
-namespace ConsoleApp.Services.Interface;
+namespace ConsoleApp.DependencyServices.Interface;
 
 public interface IDateTimeService
 {

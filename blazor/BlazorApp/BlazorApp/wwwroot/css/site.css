@@ -68,21 +68,26 @@ a, .btn-link {
 }
 
 .top-header-move-up {
-    animation: moveUp 400ms 1 forwards;
+    animation: moveUpAndDown 4s infinite linear;
 }
 
 .top-header-move-down {
-    animation: moveDown 400ms 1 forwards;
+    animation: moveUpAndDown 4s infinite linear reverse;
 }
 
 
 /* 偶数番目と奇数番目の要素に向けてアニメーションを適用 */
-.header-bg:nth-child(odd) {
-    animation: fadeInOut 400ms 1 forwards; /* ここでは2秒間でアニメーションを完了させ、無限に繰り返す設定にしています */
-    animation-direction: normal; /* 通常の方向（上から下）にアニメーションを適用します */
+.header-bg {
+    background-image: url(../images/headerbg.png); background-repeat: repeat-x;
+    background-position-y: bottom;
+    width: 800px; height: 200px; display: flex;
 }
+/*.header-bg:nth-child(odd) {*/
+/*    animation: fadeInOut 400ms 1 forwards; !* ここでは2秒間でアニメーションを完了させ、無限に繰り返す設定にしています *!*/
+/*    animation-direction: normal; !* 通常の方向（上から下）にアニメーションを適用します *!*/
+/*}*/
 
-.header-bg:nth-child(even) {
-    animation: fadeInOut 400ms 1 forwards;
-    animation-direction: reverse; /* 逆方向（下から上）にアニメーションを適用します */
-}
+/*.header-bg:nth-child(even) {*/
+/*    animation: fadeInOut 400ms 1 forwards;*/
+/*    animation-direction: reverse; !* 逆方向（下から上）にアニメーションを適用します *!*/
+/*}*/

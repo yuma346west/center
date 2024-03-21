@@ -1,47 +1,26 @@
 /* moveUp and moveDown */
-@keyframes moveUp {
+@keyframes moveUpAndDown {
     0% {
         transform: translateY(0);
     }
 
-    80% {
-        transform: translateY(-60px);
-    }
-
-    100% {
+    24% {
         transform: translateY(-20px);
-        opacity: 0;
     }
-}
+    25%, 26% {
+    }
 
-@keyframes moveDown {
-    0% {
+    50% {
         transform: translateY(0);
     }
 
-    80% {
-        transform: translateY(60px);
-    }
-
-    100% {
+    74% {
         transform: translateY(20px);
-        opacity: 0;
     }
-}
+    75%, 76% {
+    }
 
-/* moveUp and moveDown */
-
-/* キーフレームアニメーションを定義します */
-@keyframes fadeInOut {
-    0% {
-        opacity: 0;
-        transform: translateY(0px); /* Y軸の位置も0にすることで中心から開始 */
-    }
-    60% {
-        opacity: 0; /* 開始時点では不透明度は0（完全に透明） */
-    }
     100% {
-        opacity: 1; /* 半分の時間が経過した時点で不透明度は1（完全に不透明） */
-        /* 上と下に向かって移動させるには、正と負の値を適切に設定します */
+        transform: translateY(0);
     }
 }

@@ -4,19 +4,17 @@
 <PageTitle>Index</PageTitle>
 
 <header>
-    <div style="position: relative;">
-        <BackGroupHeader/>
-        <div style="width: 800px; height: 200px; display: flex;">
-            @foreach (var num in Enumerable.Range(1, 5)) {
-                <DeltaCircleIcon CssClass="top-header-move-down"/>
-                <DeltaCircleIcon Invert="true" CssClass="top-header-move-up"/>
-            }
-            <DeltaCircleIcon CssClass="top-header-move-down"/>
-        </div>
-    </div>
+<p>ホワイトボード</p>
 </header>
 
+<body>
 Welcome to your new app.
+
+<ToolBarView></ToolBarView>
+<MainView></MainView>
+<CanvasView></CanvasView>
+
+</body>
 
 <SurveyPrompt Title="How is Blazor working for you?"/>
 

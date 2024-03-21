@@ -1,4 +1,4 @@
-using ConsoleApp.Services.Interface;
+using ConsoleApp.DependencyServices.Interface;
 using Microsoft.Extensions.Logging;
 
 namespace ConsoleApp.DependencyServices;
